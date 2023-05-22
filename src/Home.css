@@ -1,0 +1,38 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./images/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.home .main-text{
+    text-align: center;
+    padding: 150px 10% 10px;
+}
+.main-text h1{
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0px 0px 1px black;
+}
+.home .main-text p{
+    color: white;
+    margin-top: 5px;
+}
+#btn{
+    width: 200px;
+    height: 36px;
+    font-weight: bold;
+    background: white;
+    color: #388b6f;
+    letter-spacing: 1px;
+    border: 2px solid #388b6f;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #388b6f;
+    color: white;
+}
